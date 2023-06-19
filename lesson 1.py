@@ -21,10 +21,17 @@ def strcounter(string):
 
 strcounter('aaabbbcccdddeee')
 '''
-
+'''
 def strcounter(string):
     syms_counter = {}
     for symbol in string:
         syms_counter[symbol] = syms_counter.get(symbol, 0) + 1
     print(syms_counter)
 strcounter('aaabbbcccdddeee')
+'''
+word = input('Введите слово для проверки: ')
+
+if word == word[::-1]:
+    print(True)
+else:
+    print(False)
