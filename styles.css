@@ -1,0 +1,28 @@
+h1{
+    background: red;
+}
+
+.para-1 {
+    background: blue;
+    color: green;
+    font-size: 32pt;
+}
+
+.para-2 {
+    border: 10px solid yellow;
+    font-size: 24pt;
+    border-radius: 15px;
+    margin-bottom: 60px;
+}
+.para-3 {
+    font-weight: bold;
+    font-family: Courier New;
+    text-shadow: 2px 2px 4px green;
+}
+.para-4 {
+    font-size: 24px;
+    font-style: oblique;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12em
+}
